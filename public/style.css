@@ -1,0 +1,23 @@
+input[type]:focus, textarea:focus, button:focus {
+  outline: none;
+}
+
+select:focus {
+  outline: none;
+  border-color: rgba(82, 168, 236, 0.8);
+  box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 8px rgba(82, 168, 236, 0.6);
+
+  /* for chrome */
+  outline: 5px auto rgba(82, 168, 236, 0.6);
+}
+
+.message-radio {
+  width: 60px;
+  padding: 5px 0px;
+  margin: 0px;
+}
+
+.message-nickname {
+  font-weight: bold;
+}
+

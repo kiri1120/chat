@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <title>Misty Chat</title>
+
+    <link href="/assets/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link href="/assets/bootstrap/css/bootstrap-responsive.min.css" rel="stylesheet">
+    <link href="style.css" rel="stylesheet">
+
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/2.0.2/jquery.min.js"></script>
+    <script src="/assets/bootstrap/js/bootstrap.min.js"></script>
+    <script src="/assets/socket.io/socket.io.min.js"></script>
+    <script src="client.js"></script>
+  </head>
+
+  <body>
+    <div class="container">
+      <h1>Misty Chat</h1>
+
+      <div id="connecting">
+        <h2>接続中です...</h2>
+      </div>
+
+
+      <div id="connected" class="hide">
+        <form id="joinform" class="form-horizontal">
+          <fieldset>
+            <div class="control-group">
+              <label class="control-label">Nick</label>
+              <div class="controls">
+                <input type="text" id="nickname">
+              </div>
+            </div>
+            <div class="control-group">
+              <label class="control-label">Color</label>
+              <div id="colors" class="controls form-inline">
+              </div>
+            </div>
+            <div class="control-group">
+              <label class="control-label">Icon</label>
+              <div class="controls">
+                <img id="selectedicon"><br>
+                <select id="icon"></select>
+              </div>
+            </div>
+            <div class="controls">
+              <button type="submit" class="btn btn-primary input-mini">join</button>
+            </div>
+          </fieldset>
+        </form>
+      </div>
+
+      <div id="joined" class="hide">
+        <form id="messageform" class="form-horizontal">
+          <fieldset>
+            <div class="control-group">
+              <label class="control-label">
+                <img id="myicon">
+              </label>
+
+              <div class="controls message-controls">
+                <input type="text" id="message" class="input-xxlarge">
+                <button type="submit" class="btn btn-primary">Send</button>
+                <button id="leave" type="button" class="btn input-mini">leave</button>
+              </div>
+            </div>
+          </fieldset>
+        </form>
+      </div>
+
+      <div id="logs" class="hide row">
+        <div class="span9">
+          <legend>log</legend>
+          <div id="messages"></div>
+        </div>
+        <div class="span3">
+          <legend>members</legend>
+          <div id="members"></div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

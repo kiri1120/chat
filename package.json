@@ -1,0 +1,18 @@
+{
+  "author": "",
+  "name": "chat",
+  "version": "0.0.0",
+  "repository": {
+    "url": ""
+  },
+  "dependencies": {
+    "socket.io": "0.9.6",
+    "validator": "0.4.6-1",
+    "sprintf" : "0.1.1"
+  },
+  "devDependencies": {},
+  "optionalDependencies": {},
+  "engines": {
+    "node": "*"
+  }
+}
