@@ -1,18 +1,27 @@
 {
-  "author": "",
   "name": "chat",
   "version": "0.0.0",
-  "repository": {
-    "url": ""
-  },
+  "description": "mistychat\r =========",
+  "main": "server.js",
   "dependencies": {
-    "socket.io": "0.9.6",
-    "validator": "0.4.6-1",
-    "sprintf" : "0.1.1"
+    "socket.io": "~0.9.16",
+    "sprintf": "~0.1.1",
+    "validator": "~1.1.3"
   },
   "devDependencies": {},
-  "optionalDependencies": {},
-  "engines": {
-    "node": "*"
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/kiri1120/chat.git"
+  },
+  "author": "kiri1120",
+  "license": "BSD",
+  "readmeFilename": "README.md",
+  "gitHead": "0fbdaf874ac85619b03ea1b727e1bf1dd707dd7c",
+  "bugs": {
+    "url": "https://github.com/kiri1120/chat/issues"
   }
 }
