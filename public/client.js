@@ -9,7 +9,7 @@ var user = {
 };
 
 $(function() {
-  var uri = 'http://' + location.host + ':3000';
+  var uri = 'http://' + location.hostname + ':3000';
   var socket = io.connect(uri);
 
   socket.on('connect', function () {
