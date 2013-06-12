@@ -20,7 +20,6 @@ exports.iconList = [
 ];
 
 exports.colorList = [
-  {'name':'gray',   'color': '#333333', 'backgroundColor': '#f5f5f5', 'borderColor': '#eeeeee'},
   {'name':'blue',   'color': '#3a87ad', 'backgroundColor': '#d9edf7', 'borderColor': '#bce8f1'},
   {'name':'green',  'color': '#468847', 'backgroundColor': '#dff0d8', 'borderColor': '#d6e9c6'},
   {'name':'yellow', 'color': '#c09853', 'backgroundColor': '#fcf8e3', 'borderColor': '#fbeed5'},
