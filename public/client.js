@@ -14,9 +14,11 @@ $(function() {
 
   socket.on('connect', function () {
     $('#connecting').hide();
-    $('#joined').hide();
     $('#connected').show();
     $('#logs').show();
+
+    $('#joined').hide();
+    $('#members').empty();
 
     $('#icon').change(changeIcon);
 

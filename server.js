@@ -86,7 +86,6 @@ io.sockets.on('connection', function(socket) {
 function toText(data) {
   data = validator.sanitize(data).trim();
   data = validator.sanitize(data).xss();
-  data = validator.sanitize(data).entityEncode();
   return data;
 }
 
