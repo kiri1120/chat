@@ -2,7 +2,7 @@ mistychat
 =========
 2013/06/12 v0.1.0 first commit
 
-’ˆÓ
+æ³¨æ„
 =========
-twitter bootstrap‚ğg—p‚µ‚Ä‚¢‚Ü‚·B
-/assets/bootstrap/‚É”z’u‚³‚ê‚é‚±‚Æ‚ğ‘O’ñ‚Æ‚µ‚Ä‚¢‚Ü‚·B
+twitter bootstrapã‚’ä½¿ç”¨ã—ã¦ã„ã¾ã™ã€‚
+/assets/bootstrap/ã«é…ç½®ã•ã‚Œã‚‹ã“ã¨ã‚’å‰æã¨ã—ã¦ã„ã¾ã™ã€‚
